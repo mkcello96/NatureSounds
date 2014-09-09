@@ -33,7 +33,7 @@ public class PlaySounds {
 			public void actionPerformed(ActionEvent event) {
 				if (clip != null) {
 					clip.close();
-				}
+				}  
 
 				File sound = soundFiles.remove();
 				soundFiles.add(sound);
